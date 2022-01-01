@@ -19,28 +19,26 @@ HC-SR04 as a distance sensor,
 L298N as a brushed DC motor driver,
 were used.
   
- /*  Used Pins:
- * 		PWM Signal Outputs: -- Brushed DC Motor Drive
- * 			* PB7
- * 			* PB8
- * 		Square Signal Output: -- Buzzer Driven
- * 			* PA2
- * 		Sensor I/Os: -- HC-SR04
- * 			* PA1 -- Output (Trigger)
- * 			* PA3 -- Input (Echo)
- * 		ADC Input:
- * 			* PB0 (10k Pot)
- * 		LED Outputs:
- * 			* PB11 -- Sensor Light
- * 			* PB12 -- Emergency Light
- * 			* PB13 -- Motor Direction Light 1
- * 			* PB14 -- Motor Direction Light 2
- * 			* PB5  -- Motor Status Light
- * 		UART I/Os:
- * 			* PD8 -- TX
- * 			* PD9 -- RX
- * 		Button/Switch Inputs:
- * 			* PA0  -- Motor Direction Change Button
- * 			* PB15 -- Motor-On Switch (Active Low)
- *
- */
+Used Pins:
+		PWM Signal Outputs: -- Brushed DC Motor Drive			
+         - PB7
+ 			- PB8
+ 		Square Signal Output: -- Buzzer Driven
+ 			- PA2
+ 		Sensor I/Os: -- HC-SR04
+ 			- PA1 -- Output (Trigger)
+ 			- PA3 -- Input (Echo)
+ 		ADC Input:
+ 			- PB0 (10k Pot)
+ 		LED Outputs:
+ 			- PB11 -- Sensor Light
+ 			- PB12 -- Emergency Light
+ 			- PB13 -- Motor Direction Light 1
+ 			- PB14 -- Motor Direction Light 2
+ 			- PB5  -- Motor Status Light
+ 		UART I/Os:
+ 			- PD8 -- TX
+ 			- PD9 -- RX
+ 		Button/Switch Inputs:
+ 			- PA0  -- Motor Direction Change Button
+ 			- PB15 -- Motor-On Switch (Active Low)
